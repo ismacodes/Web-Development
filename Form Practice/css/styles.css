@@ -1,0 +1,114 @@
+/* * {
+    padding: 0;
+    margin:0;
+} */
+
+
+body {
+    font: 20px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background: url("../images/background.jpg") no-repeat top left/cover;
+    color: #fff;
+}
+
+header {
+    padding: 30px 0;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    color: #001a33;
+}
+
+header p {
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.container {
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+/* survey */
+
+#survey {
+    border: 3px #001a33 solid;
+    border-radius: 1%;
+    background-color: rgba(0, 26, 51, 0.9);
+    padding: 30px;
+    
+}
+
+#survey .form-group {
+    padding-bottom: 20px;
+}
+
+#survey label {
+    display: block;
+}
+
+#survey input[type="text"], 
+#survey input[type="email"], 
+#survey input[type="number"],
+#role select,
+#fav-feature select,
+#comments textarea{
+    padding: 10px 0;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 1.0);
+}
+
+.form-group input {
+    padding-left: 5px;
+}
+
+#comments textarea {
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 5px 0 100px 5px;
+    text-align: initial;
+
+}
+
+/* checks and multiple choice */
+
+#recommend {
+    line-height: 1.8;
+}
+
+#improve {
+    line-height: 1.8;
+}
+
+#improve input{
+    padding-right:5px;
+}
+
+/* button */
+
+.submit {
+    padding: 15px 0;
+    width: 100%;
+    background-color: green;
+    color: #fff;
+    font-size: 18px;
+
+}
+
+input[type="checkbox"] {
+    transform: scale(1.25);
+    padding-right: 5px;
+}
+
+
+@media(max-width: 760px) {
+    .container {
+        max-width:90%;
+        margin: 0 auto;
+    }
+
+    /* #form {
+        justify-content: space-evenly;
+    } */
+}
+
